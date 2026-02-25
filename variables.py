@@ -22,3 +22,5 @@ print(type(year))
 print(type(is_married))
 print(type(is_true))
 print(type(is_light_on))
+
+print('First name :',len(first_name))
