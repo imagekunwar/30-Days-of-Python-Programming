@@ -64,3 +64,37 @@ division= num_one/num_two
 remainder=num_two % num_one
 exp=pow(num_one, num_two)                  #num 1 power num 2
 floor_division=num_one//num_two
+
+"""The radius of a circle is 30 meters.
+Calculate the area of a circle and assign the value to a variable name of area_of_circle
+Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
+Take radius as user input and calculate the area. """
+
+radius=30
+pie=3.14
+area_of_circle= pie*radius*radius
+circum_of_circle=2*pie*radius
+print("The area of circle is:",area_of_circle)
+print("Circumference of circle is:",circum_of_circle)
+
+r=float(input("Enter the radius of the circle:"))   #look
+print("Area of circle:",pie*r*r)
+
+#Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+"""firstname=input("Input your first name:")
+last_name=input("Input your last name:")
+country=input("Input name of your country:")
+age=int(input("Input your age":))
+print(fristname)
+print(last_name)
+print(country)
+print(age)"""
+firstname = input("Input your first name: ")
+last_name = input("Input your last name: ")
+country = input("Input name of your country: ")
+age = int(input("Input your age: "))
+
+print(firstname)
+print(last_name)
+print(country)
+print(age)
